@@ -5,7 +5,7 @@
 
 import { useState } from "react";
 import { Button } from "./Button";
-import {  ChatLine, LoadingChatLine } from "./ChatLine";
+import { LoadingChatLine } from "./ChatLine";
 import { api } from "../utils/api";
 
 import { useSession } from "next-auth/react";
